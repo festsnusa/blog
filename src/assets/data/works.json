@@ -1,0 +1,5 @@
+[
+  { "title": "Designing Dashboards", "year": "2020", "type": "Dashboard", "img": "/src/assets/images/dashboard.jpg", "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet." },
+  { "title": "Vibrants Portraits of 2020", "year": "2020", "type": "Illustration", "img": "/src/assets/images/portrait.jpg", "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet." },
+  { "title": "36 Days of Malayalam type", "year": "2019", "type": "Typography", "img": "/src/assets/images/challenge.jpg", "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet." }
+]

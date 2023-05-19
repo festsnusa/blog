@@ -1,0 +1,26 @@
+@mixin fontFace($title, $font, $size) {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: #{$title};
+  font-style: normal;
+  font-weight: 400;
+  src: url('@fonts/heebo-v21-latin-#{$font}.eot'); /* IE9 Compat Modes */
+  src: url('@fonts/heebo-v21-latin-#{$font}.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('@fonts/heebo-v21-latin-#{$font}.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('@fonts/heebo-v21-latin-#{$font}.woff') format('woff'),
+    /* Modern Browsers */ url('@fonts/heebo-v21-latin-#{$font}.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('@fonts/heebo-v21-latin-#{$font}.svg#Heebo') format('svg');
+}
+
+/* heebo-regular - latin */
+@font-face {
+  @include fontFace('Heebo', 'regular', 400);
+}
+
+@font-face {
+  @include fontFace('Heebo Medium', '500', 500);
+}
+
+/* heebo-700 - latin */
+@font-face {
+  @include fontFace('Heebo Bold', '700', 700);
+}
