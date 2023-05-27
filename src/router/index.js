@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import BlogView from '@/views/BlogView.vue'
+import PostView from '@/views/PostView.vue'
 import ContactView from '@/views/ContactView.vue'
 import WorksView from '@/views/WorksView.vue'
 import NotFoundView from '@/views/NotFoundView.vue'
@@ -22,6 +23,11 @@ const router = createRouter({
       path: '/blog',
       name: 'blog',
       component: BlogView
+    },
+    {
+      path: '/post/:post',
+      name: 'post',
+      component: PostView
     },
     {
       path: '/contact',

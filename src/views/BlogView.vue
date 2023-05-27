@@ -2,7 +2,8 @@
 AppHeader(:currentIndex="1")
 .blog 
   h1.title Blog
-  .post(v-for="post in posts" :key="post.title")
+  RouterLink.post(v-for="post in posts" :key="post.title"
+  :to="`/post/${post.title}`") 
     h1.post__title {{ post.title }}
     .post__header 
       .post__date {{ new Date(post.date).toDateString() }}
